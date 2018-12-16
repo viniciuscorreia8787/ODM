@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>DigitValidationCheck</name>
+  <uuid>36d79d04-c79f-4bba-9784-ff807cc30441</uuid>
+</ilog.rules.studio.model.base:RulePackage>

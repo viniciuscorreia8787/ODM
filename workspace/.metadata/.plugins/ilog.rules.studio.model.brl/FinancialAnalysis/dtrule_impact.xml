@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="accs.Request">
+            <rule id="8487fb8c-7b05-4424-9242-3f8f98ac38e2"/>
+        </vocElt>
+        <vocElt id="accs.Request/creditScore/GETTER#0">
+            <rule id="8487fb8c-7b05-4424-9242-3f8f98ac38e2"/>
+        </vocElt>
+        <vocElt id="accs.Request/state/GETTER#0">
+            <rule id="8487fb8c-7b05-4424-9242-3f8f98ac38e2"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="8487fb8c-7b05-4424-9242-3f8f98ac38e2">
+            <vocElt id="accs.Request"/>
+            <vocElt id="accs.Request/creditScore/GETTER#0"/>
+            <vocElt id="accs.Request/state/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="request">
+            <rule id="8487fb8c-7b05-4424-9242-3f8f98ac38e2"/>
+        </param>
+        <param id="approved">
+            <rule id="8487fb8c-7b05-4424-9242-3f8f98ac38e2"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="8487fb8c-7b05-4424-9242-3f8f98ac38e2">
+            <param id="request"/>
+            <param id="approved"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="1d47687e-57ec-490f-b32f-dca53824a3e6">
+            <rule id="8487fb8c-7b05-4424-9242-3f8f98ac38e2"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/FinancialAnalysis/bom/requestBOM_en_US.voc" id="9b2da902-8da2-4722-8771-d13863b39453">
+            <rule id="8487fb8c-7b05-4424-9242-3f8f98ac38e2"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/FinancialAnalysis/rules/CreditScoreCheck/CreditScoreRule.dta" id="8487fb8c-7b05-4424-9242-3f8f98ac38e2"/>
+        <resource file="/FinancialAnalysis/rules/Simple Var Set.var" id="1d47687e-57ec-490f-b32f-dca53824a3e6"/>
+    </resourceTable>
+</impactTables>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionServerConfigurations>
+  <project name="Rule Execution Server Configuration">
+    <configuration name="WebSphere Liberty 16" login="resAdmin" password="fuiXYklJG9zfb07C+vF9QQ==" algoId="AES 1" uuid="_hTSAQABoEemCkt4tKm_-Pg" />
+  </project>
+</ExecutionServerConfigurations>
+

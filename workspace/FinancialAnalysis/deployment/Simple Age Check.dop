@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="Simple_Age_Check" usingRuleflow="true" ruleflowName="Financial Analysis Flow" targetRuleProjectName="FinancialAnalysis">
+  <name>Simple Age Check</name>
+  <uuid>2c1d3ab3-ed68-40b6-9a0d-54c6cd47f948</uuid>
+  <referencedVariables variableName="request" variableSetName="Simple Var Set">
+    <variableSet href="../rules/Simple%20Var%20Set.var#1d47687e-57ec-490f-b32f-dca53824a3e6"/>
+  </referencedVariables>
+  <referencedVariables variableName="approved" variableSetName="Simple Var Set" direction="OUT">
+    <variableSet href="../rules/Simple%20Var%20Set.var#1d47687e-57ec-490f-b32f-dca53824a3e6"/>
+  </referencedVariables>
+  <ruleflow href="../rules/Financial%20Analysis%20Flow.rfl#b1e89826-2ee4-44db-b175-825db99c6071"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="Simple Age Check_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../FinancialAnalysis#712fb776-8eed-4b31-b6f8-189c611a9f93"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable/>
+    <vocTable/>
+    <ruleParamTable>
+        <param id="approved">
+            <rule id="b1e89826-2ee4-44db-b175-825db99c6071"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="b1e89826-2ee4-44db-b175-825db99c6071">
+            <param id="approved"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="1d47687e-57ec-490f-b32f-dca53824a3e6">
+            <rule id="b1e89826-2ee4-44db-b175-825db99c6071"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable/>
+    <resourceTable>
+        <resource file="/FinancialAnalysis/rules/Financial Analysis Flow.rfl" id="b1e89826-2ee4-44db-b175-825db99c6071"/>
+        <resource file="/FinancialAnalysis/rules/Simple Var Set.var" id="1d47687e-57ec-490f-b32f-dca53824a3e6"/>
+    </resourceTable>
+</impactTables>

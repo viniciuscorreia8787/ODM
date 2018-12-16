@@ -1,0 +1,205 @@
+include "ilog/rules/xml/binding/xsd_types.xom";
+
+package accs;
+
+
+public class Account
+        extends ilog.rules.xml.IlrXmlObject
+        property "ilog.rules.engine.driver" "ilog.rules.xml.binding.IlrXmlClassDriver"
+        property "ilog.rules.xml.classInfo" {
+            derivation "EXTENSION",
+            model "sequence",
+            version "ilog.rules.xml.binding.IlrXmlDefaultDataDriver_7_0",
+            xmlFieldNumber "5",
+            xmlScope "global",
+            xmlType "{http://ACCS}Account",
+            xsdLocation "request.xsd"
+        }
+{
+    public string accountDigit domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "3",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}accountDigit",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public string accountNumber domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "2",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}accountNumber",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public string accountType domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "4",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}accountType",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public string branchDigit domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "1",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}branchDigit",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public string branchNumber domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "0",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}branchNumber",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public Account();
+}
+
+public class Client
+        extends ilog.rules.xml.IlrXmlObject
+        property "ilog.rules.engine.driver" "ilog.rules.xml.binding.IlrXmlClassDriver"
+        property "ilog.rules.xml.classInfo" {
+            derivation "EXTENSION",
+            model "sequence",
+            version "ilog.rules.xml.binding.IlrXmlDefaultDataDriver_7_0",
+            xmlFieldNumber "3",
+            xmlScope "global",
+            xmlType "{http://ACCS}Client",
+            xsdLocation "request.xsd"
+        }
+{
+    public int age domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "1",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}age",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}int",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdInt"
+                };
+    public string name domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "0",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}name",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public string phone domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "2",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}phone",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public Client();
+    public void setUnknownAge();
+}
+
+class IlogRulesXmlPackage
+        property "ilog.rules.xml.packageInfo" {
+            "1" {
+                xmlName "{http://ACCS}Request",
+                xomType "accs.Request"
+            },
+            version "ilog.rules.xml.binding.IlrXmlDefaultDataDriver_7_0"
+        }
+        property visible "false"
+{
+}
+
+public class Request
+        extends ilog.rules.xml.IlrXmlObject
+        property "ilog.rules.engine.driver" "ilog.rules.xml.binding.IlrXmlClassDriver"
+        property "ilog.rules.xml.classInfo" {
+            derivation "EXTENSION",
+            model "sequence",
+            version "ilog.rules.xml.binding.IlrXmlDefaultDataDriver_7_0",
+            xmlFieldNumber "9",
+            xmlScope "global",
+            xmlType "{http://ACCS}Request",
+            xsdLocation "request.xsd"
+        }
+{
+    public accs.Account account domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "6",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}account",
+                    xmlType "{http://ACCS}Account",
+                    xomComponentType "accs.Account"
+                };
+    public boolean analisysResult domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "8",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}analisysResult",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}boolean",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdBoolean"
+                };
+    public string city domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "4",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}city",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public accs.Client client domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "0",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}client",
+                    xmlType "{http://ACCS}Client",
+                    xomComponentType "accs.Client"
+                };
+    public string comments domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "7",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}comments",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public double creditLimit domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "1",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}creditLimit",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}double",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDouble"
+                };
+    public double creditScore domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "2",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}creditScore",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}double",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDouble"
+                };
+    public ilog.rules.xml.types.IlrDateTime operationDate domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "3",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}operationDate",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}dateTime",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDateTime"
+                };
+    public string state domain 0,1
+                property "ilog.rules.xml.fieldInfo" {
+                    index "5",
+                    xmlKind "ELEMENT",
+                    xmlName "{http://ACCS}state",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public Request();
+    public void setUnknownAnalisysResult();
+    public void setUnknownCreditLimit();
+    public void setUnknownCreditScore();
+}
+

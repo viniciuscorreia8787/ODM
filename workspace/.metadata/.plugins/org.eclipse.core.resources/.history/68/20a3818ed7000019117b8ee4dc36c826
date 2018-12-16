@@ -1,0 +1,45 @@
+# Vocabulary Properties
+uuid = 9b2da902-8da2-4722-8771-d13863b39453
+
+# accs.Account
+accs.Account#concept.label = account
+accs.Account.accountDigit#phrase.action = set the account digit of {this} to {account digit}
+accs.Account.accountDigit#phrase.navigation = {account digit} of {this}
+accs.Account.accountNumber#phrase.action = set the account number of {this} to {account number}
+accs.Account.accountNumber#phrase.navigation = {account number} of {this}
+accs.Account.accountType#phrase.action = set the account type of {this} to {account type}
+accs.Account.accountType#phrase.navigation = {account type} of {this}
+accs.Account.branchDigit#phrase.action = set the branch digit of {this} to {branch digit}
+accs.Account.branchDigit#phrase.navigation = {branch digit} of {this}
+accs.Account.branchNumber#phrase.action = set the branch number of {this} to {branch number}
+accs.Account.branchNumber#phrase.navigation = {branch number} of {this}
+
+# accs.Client
+accs.Client#concept.label = client
+accs.Client.age#phrase.action = set the age of {this} to {age}
+accs.Client.age#phrase.navigation = {age} of {this}
+accs.Client.name#phrase.action = set the name of {this} to {name}
+accs.Client.name#phrase.navigation = {name} of {this}
+accs.Client.phone#phrase.action = set the phone of {this} to {phone}
+accs.Client.phone#phrase.navigation = {phone} of {this}
+
+# accs.Request
+accs.Request#concept.label = request
+accs.Request.account#phrase.action = set the account of {this} to {account}
+accs.Request.account#phrase.navigation = {account} of {this}
+accs.Request.analisysResult#phrase.action = make it {analisys result} that {this} is analisys result
+accs.Request.analisysResult#phrase.navigation = {this} is analisys result
+accs.Request.city#phrase.action = set the city of {this} to {city}
+accs.Request.city#phrase.navigation = {city} of {this}
+accs.Request.client#phrase.action = set the client of {this} to {client}
+accs.Request.client#phrase.navigation = {client} of {this}
+accs.Request.comments#phrase.action = set the comments of {this} to {comments}
+accs.Request.comments#phrase.navigation = {comments} of {this}
+accs.Request.creditLimit#phrase.action = set the credit limit of {this} to {credit limit}
+accs.Request.creditLimit#phrase.navigation = {credit limit} of {this}
+accs.Request.creditScore#phrase.action = set the credit score of {this} to {credit score}
+accs.Request.creditScore#phrase.navigation = {credit score} of {this}
+accs.Request.operationDate#phrase.action = set the operation date of {this} to {operation date}
+accs.Request.operationDate#phrase.navigation = {operation date} of {this}
+accs.Request.state#phrase.action = set the state of {this} to {state}
+accs.Request.state#phrase.navigation = {state} of {this}

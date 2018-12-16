@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Credit Score Check</name>
+  <uuid>08721131-5783-466d-9648-d20bbafce320</uuid>
+</ilog.rules.studio.model.base:RulePackage>

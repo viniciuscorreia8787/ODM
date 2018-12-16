@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ACCS" targetNamespace="http://ACCS" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:complexType name="Request">
+    <xs:sequence>
+      <xs:element name="client" nillable="false" type="tns:Client" minOccurs="0" maxOccurs="1" />
+      <xs:element name="creditLimit" nillable="false" type="xs:double" minOccurs="0" maxOccurs="1" />
+      <xs:element name="creditScore" nillable="false" type="xs:double" minOccurs="0" maxOccurs="1" />
+      <xs:element name="operationDate" nillable="false" type="xs:dateTime" minOccurs="0" maxOccurs="1" />
+      <xs:element name="city" nillable="false" type="xs:string" minOccurs="0" maxOccurs="1" />
+      <xs:element name="state" nillable="false" type="xs:string" minOccurs="0" maxOccurs="1" />
+      <xs:element name="account" nillable="false" type="tns:Account" minOccurs="0" maxOccurs="1" />
+      <xs:element name="comments" nillable="false" type="xs:string" minOccurs="0" maxOccurs="1" />
+      <xs:element name="analisysResult" nillable="false" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Client">
+    <xs:sequence>
+      <xs:element name="name" nillable="false" type="xs:string" minOccurs="0" maxOccurs="1" />
+      <xs:element name="age" nillable="false" type="xs:int" minOccurs="0" maxOccurs="1" />
+      <xs:element name="phone" nillable="false" type="xs:string" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Account">
+    <xs:sequence>
+      <xs:element name="branchNumber" nillable="false" type="xs:string" minOccurs="0" maxOccurs="1" />
+      <xs:element name="branchDigit" nillable="false" type="xs:string" minOccurs="0" maxOccurs="1" />
+      <xs:element name="accountNumber" nillable="false" type="xs:string" minOccurs="0" maxOccurs="1" />
+      <xs:element name="accountDigit" nillable="false" type="xs:string" minOccurs="0" maxOccurs="1" />
+      <xs:element name="accountType" nillable="false" type="xs:string" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Request" type="tns:Request" />
+</xs:schema>
+
+
+
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><ImpactedElements>
+    <Rule id="5a5f6562-6644-4b13-a06d-56d5ed6f2777" path="rules/AgeCheck/AgeCheckRule.brl">
+        <UserFlow id="b1e89826-2ee4-44db-b175-825db99c6071"/>
+    </Rule>
+    <Rule id="8487fb8c-7b05-4424-9242-3f8f98ac38e2" path="rules/CreditScoreCheck/CreditScoreRule.dta">
+        <UserFlow id="b1e89826-2ee4-44db-b175-825db99c6071"/>
+    </Rule>
+</ImpactedElements>

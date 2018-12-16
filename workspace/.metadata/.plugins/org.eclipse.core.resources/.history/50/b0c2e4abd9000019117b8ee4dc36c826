@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>Financial Analysis Flow</name>
+  <uuid>b1e89826-2ee4-44db-b175-825db99c6071</uuid>
+  <locale>en_US</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_0"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="AgeCheckRule" Ordering="Default">
+        <FinalActions/>
+        <RuleList>
+          <Rule Uuid="5a5f6562-6644-4b13-a06d-56d5ed6f2777"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="CreditScoreRule" Ordering="Default">
+        <InitialActions Language="bal"><![CDATA[set approved to false ;]]></InitialActions>
+        <RuleList>
+          <Rule Uuid="8487fb8c-7b05-4424-9242-3f8f98ac38e2"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_2"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_0" Task="task_0"/>
+      <TaskNode Identifier="node_2" Task="task_2"/>
+      <TaskNode Identifier="node_1" Task="AgeCheckRule"/>
+      <TaskNode Identifier="node_3" Task="CreditScoreRule"/>
+      <BranchNode Identifier="node_4"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_0" Source="node_0" Target="node_1"/>
+      <Transition Identifier="transition_4" Source="node_1" Target="node_4"/>
+      <Transition Identifier="transition_5" Source="node_4" Target="node_3">
+        <Conditions Language="bal"><![CDATA[approved is true ]]></Conditions>
+      </Transition>
+      <Transition Identifier="transition_6" Source="node_4" Target="node_2"/>
+      <Transition Identifier="transition_9" Source="node_3" Target="node_2"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="en_US">
+      <Data Name="node_2#height">23.0</Data>
+      <Data Name="node_4#width">36.414185</Data>
+      <Data Name="node_1#height">40.0</Data>
+      <Data Name="node_3#height">40.0</Data>
+      <Data Name="node_0#height">21.0</Data>
+      <Data Name="node_4#height">36.414215</Data>
+      <Data Name="node_2#name">node_2</Data>
+      <Data Name="transition_6#label">No</Data>
+      <Data Name="node_2#width">23.0</Data>
+      <Data Name="node_0#width">21.0</Data>
+      <Data Name="node_3#y">-84.0</Data>
+      <Data Name="node_4#x">-377.0</Data>
+      <Data Name="node_4#y">-84.0</Data>
+      <Data Name="node_0#x">-377.0</Data>
+      <Data Name="node_0#y">-226.0</Data>
+      <Data Name="node_1#x">-378.0</Data>
+      <Data Name="node_2#x">-373.0</Data>
+      <Data Name="node_1#y">-165.0</Data>
+      <Data Name="node_2#y">62.0</Data>
+      <Data Name="node_3#x">-183.0</Data>
+      <Data Name="node_3#width">130.03711</Data>
+      <Data Name="node_4#name">node_6</Data>
+      <Data Name="node_1#width">122.06055</Data>
+      <Data Name="node_0#name">node_0</Data>
+      <Data Name="node_4#label">Approved?</Data>
+      <Data Name="transition_5#label">Yes</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties>
+    <imports><![CDATA[import java.io.OutputStream;
+use age;
+use request;
+use approved;
+]]></imports>
+  </Properties>
+</Ruleflow></rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>AgeCheck</name>
+  <uuid>cc8bbca9-36cf-408c-87e5-407531b6d479</uuid>
+</ilog.rules.studio.model.base:RulePackage>

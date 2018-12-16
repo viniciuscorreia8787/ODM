@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><teamservers>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://ibmbpm-rpa:9090/decisioncenter"/>
+<entry baseType="B2XMapping" checksum="949471850" projectName="FinancialAnalysis" qualifiedName="requestBOM" sourceCS="A35BA8B4F7B7FA369951B2082CCFCB4C" targetCS="949471850" type="B2XMapping" uuid="3cb3e35e-080f-4196-83a3-2bd6ab4907f6"/>
+<entry baseType="BRLRule" checksum="3176581793" projectName="FinancialAnalysis" qualifiedName="AgeCheck.AgeCheckRule" sourceCS="38F7564D1951AFC472C0DE312293660C" targetCS="3176581793" type="BRLRule" uuid="5a5f6562-6644-4b13-a06d-56d5ed6f2777"/>
+<entry baseType="BusinessObjectModel" checksum="949471850" projectName="FinancialAnalysis" qualifiedName="requestBOM" sourceCS="6EABB3B774F227B82DB4C1CECFFE0632" targetCS="949471850" type="BusinessObjectModel" uuid="36142c15-e82a-45de-b364-1d6c35f8f9da"/>
+<entry baseType="DecisionOperation" checksum="58829640" projectName="FinancialAnalysis" qualifiedName="Simple Age Check" sourceCS="4F1952ADD1953EF96995A2C04DDF71B2" targetCS="58829640" type="DecisionOperation" uuid="2c1d3ab3-ed68-40b6-9a0d-54c6cd47f948"/>
+<entry baseType="DecisionTable" checksum="1031788113" projectName="FinancialAnalysis" qualifiedName="CreditScoreCheck.CreditScoreRule" sourceCS="A26DCB3BB2D1B929EEDACD6BD481B9B7" targetCS="1031788113" type="DecisionTable" uuid="8487fb8c-7b05-4424-9242-3f8f98ac38e2"/>
+<entry baseType="DeploymentConfiguration" checksum="1942061989" projectName="FinancialAnalysis" qualifiedName="SimpleAgeCheckDeploymentConfig" sourceCS="5C09153268C52D5DDDA8A8EBAF4AFC8D" targetCS="1942061989" type="DeploymentConfiguration" uuid="83d771b2-7ec2-402b-a832-6fd7293c9ddd"/>
+<entry baseType="Resource" checksum="613676435" projectName="FinancialAnalysis" qualifiedName="request.xsd" sourceCS="4D8D33F92432B897572A0DC6783005A5" targetCS="613676435" type="Resource" uuid="request.xsd"/>
+<entry baseType="Ruleflow" checksum="3028913052" projectName="FinancialAnalysis" qualifiedName="Financial Analysis Flow" sourceCS="8141EFE1C9493A0999E7811F44ADB607" targetCS="3028913052" type="Ruleflow" uuid="b1e89826-2ee4-44db-b175-825db99c6071"/>
+<entry baseType="RulePackageInfo" checksum="901024890" projectName="FinancialAnalysis" qualifiedName="AgeCheck" sourceCS="D27F0943CC2D3BA1B8C94E8709F581DB" targetCS="901024890" type="RulePackageInfo" uuid="cc8bbca9-36cf-408c-87e5-407531b6d479"/>
+<entry baseType="RulePackageInfo" checksum="4148695962" projectName="FinancialAnalysis" qualifiedName="CreditScoreCheck" sourceCS="B8C3992B53370D0E4D6A0C4437678563" targetCS="4148695962" type="RulePackageInfo" uuid="08721131-5783-466d-9648-d20bbafce320"/>
+<entry baseType="RulePackageInfo" checksum="4040413654" projectName="FinancialAnalysis" qualifiedName="DigitValidationCheck" sourceCS="CAA1524654EACCEC9676F8ABF6AEB06B" targetCS="4040413654" type="RulePackageInfo" uuid="36d79d04-c79f-4bba-9784-ff807cc30441"/>
+<entry baseType="RuleProjectInfo" checksum="3979708332" projectName="FinancialAnalysis" qualifiedName="FinancialAnalysis" sourceCS="EFEC0530BD55F48924C420A2BE177398" targetCS="3979708332" type="RuleProjectInfo" uuid="712fb776-8eed-4b31-b6f8-189c611a9f93"/>
+<entry baseType="VariableSet" checksum="172327933" projectName="FinancialAnalysis" qualifiedName="Simple Var Set" sourceCS="1FDCAB521894109F3804C05A8398FC00" targetCS="172327933" type="VariableSet" uuid="1d47687e-57ec-490f-b32f-dca53824a3e6"/>
+<entry baseType="Vocabulary" checksum="4179170730" projectName="FinancialAnalysis" qualifiedName="requestBOM_en_US" sourceCS="010F17470CF1A2DCACB705F5A14285A1" targetCS="4179170730" type="Vocabulary" uuid="9b2da902-8da2-4722-8771-d13863b39453"/>
+</teamserver>
+</teamservers>

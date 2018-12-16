@@ -1,0 +1,4 @@
+#Sat Dec 15 18:42:28 BRST 2018
+ruleset.uuid=2339c94d-431b-4e0a-8054-6fb35a22b3ab
+ruleset.engine=de
+ruleset.engine.version=1.40.6
