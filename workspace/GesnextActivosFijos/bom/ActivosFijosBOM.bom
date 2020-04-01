@@ -1,0 +1,53 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/GesnextActivosFijos//ActivosFijosDefinition"
+property uuid "d443fa04-2b84-47f1-a884-4f0414a9fb0e"
+
+public class ComponentesPep
+{
+    public java.lang.Integer aEjercicio;
+    public java.lang.Integer aPeriodo;
+    public java.lang.Integer cecoDepreciacion;
+    public string centro;
+    public java.lang.Integer claseActivosFijos;
+    public string codigoGGI;
+    public string codigoProveedor;
+    public java.lang.Integer deEjercicio;
+    public java.lang.Integer dePeriodo;
+    public string denominacionActivoFijo1;
+    public string denominacionActivoFijo2;
+    public string descipcionCeco;
+    public string descripcionClaseActivosFijos;
+    public string descripcionEmplazamiento;
+    public string emplazamiento;
+    public string fabricante;
+    public java.util.Date fechaActaAceptacionFechaEntregaAreaProductiva;
+    public java.util.Date fechaPuestaFuncionamiento;
+    public java.lang.Integer grupoClaseActivosFijos;
+    public string local;
+    public string marcaModelo;
+    public string matriculaVehiculo;
+    public string numeroActivoAntiguo;
+    public string numeroSerie;
+    public string observacionActivoFijo;
+    public string ordenInversion;
+    public string pepOrigen;
+    public java.math.BigDecimal porcentajeNormaLiquidacion;
+    public java.lang.Integer superanumero;
+    public string tipoActivo;
+    public java.lang.Integer uma;
+    public string unidadMedida;
+    public java.lang.Integer unidadesPorActivo;
+    public ComponentesPep();
+}
+
+public class SolicitacionPep
+        property automaticVariable "true"
+{
+    public ComponentesPep[] componentePep;
+    public java.lang.Boolean esProyectosEspeciales;
+    public java.lang.Boolean pepBlqueada;
+    public java.lang.Boolean portalCliente;
+    public SolicitacionPep();
+}
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="doValidacionGeneral" usingRuleflow="true" ruleflowName="rfReglaGeneral" targetRuleProjectName="GesnextActivosFijos">
+  <name>doValidacionGeneral</name>
+  <uuid>0afa6dbd-e33a-4a9f-ab09-8b26a3026de9</uuid>
+  <referencedVariables variableName="solicitacionPepInput" variableSetName="inputOutput" direction="IN_OUT">
+    <variableSet href="../rules/inputOutput.var#c7195bd2-0832-4635-9ac5-ddb15a62331c"/>
+  </referencedVariables>
+  <ruleflow href="../rules/rfReglaGeneral.rfl#3b36239f-f24b-41d0-b6ee-8209dc464e30"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="doValidacionGeneral_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../GesnextActivosFijos#2e470e60-2e19-47a8-b1b9-e326eca8e8b8"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

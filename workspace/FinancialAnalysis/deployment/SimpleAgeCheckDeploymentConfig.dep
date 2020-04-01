@@ -2,7 +2,7 @@
 <com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="SimpleAgeCheckDeploymentConfig">
   <name>SimpleAgeCheckDeploymentConfig</name>
   <uuid>83d771b2-7ec2-402b-a832-6fd7293c9ddd</uuid>
-  <targets label="LocalRESConn"/>
+  <targets label="resContainer"/>
   <operations operationName="Simple Age Check">
     <operation href="Simple%20Age%20Check.dop#2c1d3ab3-ed68-40b6-9a0d-54c6cd47f948"/>
     <properties key="ruleset.version">

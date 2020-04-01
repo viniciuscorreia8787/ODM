@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:BRLRuleTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>CamposMandatorios</name>
+  <uuid>65918f28-9450-44a4-b404-ad0d72e83e8c</uuid>
+  <rule xsi:type="ilog.rules.studio.model.brl:ActionRule">
+    <name>CamposMandatorios</name>
+    <locale>en_US</locale>
+  </rule>
+</ilog.rules.studio.model.brl:BRLRuleTemplate>

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <server>
   <name value="WebSphere Liberty 16">  </name>
-  <url value="http://localhost:9090/res">  </url>
+  <url value="http://localhost:9060/res">  </url>
   <appliurl value="">  </appliurl>
   <uuid value="_hTSAQABoEemCkt4tKm_-Pg">  </uuid>
   <application-server>true</application-server>
   <res-console-deployed>true</res-console-deployed>
   <type>WebSphere Liberty 16</type>
-  <install-directory>C:/IBM/ODM/wlp/usr/servers/odm892</install-directory>
-  <deployment-directory>C:/IBM/ODM/wlp/usr/servers/odm892</deployment-directory>
+  <deployment-directory>/Users/viniciussantos/Documents/Development/ODM/workspace/GesnextActivosFijos/output</deployment-directory>
   <deployment>
     <mode>CONSOLE</mode>
   </deployment>

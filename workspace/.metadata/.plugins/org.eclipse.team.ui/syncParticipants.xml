@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <syncparticipants>
-<participant displayName="Rule Designer - Decision Center Synchronization (/FinancialAnalysis - main)" id="ilog.rules.synchronization.eclipseui.syncparticipant" secondary_id="1544905382631">
-<data root="false">
-<org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS org.eclipse.team.ui.SCOPE_TYPE="ResourceScope">
-<org.eclipse.team.ui.TEAMSUBSRCIBER_REFRESHSCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
-<resource_scope_roots resource_scope_root_resource="/FinancialAnalysis"/>
-</org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS>
+<participant displayName="Git (RemoteSystems...xtActivosFijos)" id="org.eclipse.egit.ui.modelCompareParticipant" secondary_id="1585784598902">
+<data forceFetch="false" root="false">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS org.eclipse.team.ui.MODEL_PARTICIPANT_DESCRIPTION="RemoteSystems...xtActivosFijos" startupAction="none">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_REFRESH_SCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
+<org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS modelProviderId="org.eclipse.core.resources.modelProvider">
+<mappings>
+<resources resourcePath="/RemoteSystemsTempFiles" resourceType="4"/>
+<resources resourcePath="/ActivosFijosDefinition" resourceType="4"/>
+<resources resourcePath="/GesnextActivosFijos" resourceType="4"/>
+</mappings>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS>
+<gitSynchronizeData container="/Users/viniciussantos/Documents/Development/ODM/workspace/RemoteSystemsTempFiles" dstRev="refs/heads/master" inludeLocal="false" srcRev="HEAD"/>
 </data>
 </participant>
 </syncparticipants>

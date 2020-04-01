@@ -1,3 +1,2 @@
 eclipse.preferences.version=1
-repositories/resAdmin@http%%%ibmbpm-rpa%9090%decisioncenter/location=resAdmin@http\://ibmbpm-rpa\:9090/decisioncenter
-repositories/rtsAdmin@http%%%ibmbpm-rpa%9090%decisioncenter/location=rtsAdmin@http\://ibmbpm-rpa\:9090/decisioncenter
+repositories/odmAdmin@http%%%localhost%9060%decisioncenter/location=odmAdmin@http\://localhost\:9060/decisioncenter

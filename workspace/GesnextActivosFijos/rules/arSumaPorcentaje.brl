@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>arSumaPorcentaje</name>
+  <uuid>97b14e27-4e5f-4822-baa5-ae28d409be29</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if 'Suma Porcentaje' is not 100 
+then make it true that 'Solicitacion Pep Input' is pep blqueada ; ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

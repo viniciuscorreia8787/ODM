@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<teamservers>
+<teamserver>
+<target dataSource="" login="odmAdmin" url="http://localhost:9060/decisioncenter"/>
+<entry baseType="B2XMapping" checksum="3768931965" projectName="GesnextActivosFijos" qualifiedName="ActivosFijosBOM" sourceCS="ED6CC6692209575539EBB906F03CE595" targetCS="3768931965" type="B2XMapping" uuid="0d61afdc-5e62-4e69-b67a-5f83edc95d95"/>
+<entry baseType="BRLRule" checksum="32671935" projectName="GesnextActivosFijos" qualifiedName="com.bpm.arCamposMandatorios" sourceCS="4325B13414DBD223C589F28465E6E60A" targetCS="32671935" type="BRLRule" uuid="6563c8fb-a5af-4477-998e-211b989df951"/>
+<entry baseType="BRLRuleTemplate" checksum="249154929" projectName="GesnextActivosFijos" qualifiedName="CamposMandatorios" sourceCS="C50EF0BDEC0823EABB39E54087057DBE" targetCS="249154929" type="BRLRuleTemplate" uuid="65918f28-9450-44a4-b404-ad0d72e83e8c"/>
+<entry baseType="BusinessObjectModel" checksum="3768931965" projectName="GesnextActivosFijos" qualifiedName="ActivosFijosBOM" sourceCS="274348D8DC88FD199BE1A2F54C776A77" targetCS="3768931965" type="BusinessObjectModel" uuid="79b06950-0bcd-486a-9224-1c38e17d64e6"/>
+<entry baseType="DecisionOperation" checksum="1706752527" projectName="GesnextActivosFijos" qualifiedName="doValidacionGeneral" sourceCS="FF2CCF7BE5080822927E470DAEE2639E" targetCS="1706752527" type="DecisionOperation" uuid="0afa6dbd-e33a-4a9f-ab09-8b26a3026de9"/>
+<entry baseType="DeploymentConfiguration" checksum="2034467589" projectName="GesnextActivosFijos" qualifiedName="dcValidacionGeneral" sourceCS="589BDB954C8BC8411949214CE03AA15D" targetCS="2034467589" type="DeploymentConfiguration" uuid="c9f5738c-758e-455d-a5a8-94e387d34df7"/>
+<entry baseType="Resource" checksum="46853544" projectName="GesnextActivosFijos" qualifiedName="SolicitacionPep.xsd" sourceCS="4B0A75603719CF48B191BF7FCF99E6A7" targetCS="46853544" type="Resource" uuid="SolicitacionPep.xsd"/>
+<entry baseType="Resource" checksum="2437479352" projectName="GesnextActivosFijos" qualifiedName="xom-libraries/ActivosFijosDefinition.zip" sourceCS="CCDCC6478653052254316B4111B1F834" targetCS="2437479352" type="Resource" uuid="xom-libraries/ActivosFijosDefinition.zip"/>
+<entry baseType="Ruleflow" checksum="3516935368" projectName="GesnextActivosFijos" qualifiedName="rfReglaGeneral" sourceCS="8E52D2F2BDAE6AD566B3DAD1E2A93C4C" targetCS="3516935368" type="Ruleflow" uuid="3b36239f-f24b-41d0-b6ee-8209dc464e30"/>
+<entry baseType="RulePackageInfo" checksum="1808335771" projectName="GesnextActivosFijos" qualifiedName="com" sourceCS="A185F0657BCA0565983952AEEB0D92C9" targetCS="1808335771" type="RulePackageInfo" uuid="28e5938e-bb5d-4305-a431-86d9802c3a83"/>
+<entry baseType="RulePackageInfo" checksum="2660855911" projectName="GesnextActivosFijos" qualifiedName="com.bpm" sourceCS="7195CCE7C30749EF2E2A33268D864D64" targetCS="2660855911" type="RulePackageInfo" uuid="ca7dd0a7-38f1-481b-aecf-7d34d9fa11fc"/>
+<entry baseType="RuleProjectInfo" checksum="2358043221" projectName="GesnextActivosFijos" qualifiedName="GesnextActivosFijos" sourceCS="DE27A947D4AF273848D0F99475AEFCE9" targetCS="2358043221" type="RuleProjectInfo" uuid="2e470e60-2e19-47a8-b1b9-e326eca8e8b8"/>
+<entry baseType="VariableSet" checksum="922149010" projectName="GesnextActivosFijos" qualifiedName="viSolicitacionPep" sourceCS="5E02639E0A54C2B5D709BB9D493CD654" targetCS="922149010" type="VariableSet" uuid="cc781ad4-085d-4273-b06f-a055d1aafb63"/>
+<entry baseType="Vocabulary" checksum="3768931965" projectName="GesnextActivosFijos" qualifiedName="ActivosFijosBOM_en_US" sourceCS="A658AC9814B1E84EEDAEAA7A24DDC3FC" targetCS="3768931965" type="Vocabulary" uuid="acc67733-5d02-4bf8-8f55-157e8d946e69"/>
+</teamserver>
+</teamservers>

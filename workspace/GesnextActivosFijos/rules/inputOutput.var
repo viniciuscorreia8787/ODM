@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>inputOutput</name>
+  <uuid>c7195bd2-0832-4635-9ac5-ddb15a62331c</uuid>
+  <variables name="solicitacionPepInput" type="SolicitacionPep" initialValue="" verbalization="Solicitacion Pep Input"/>
+  <variables name="sumPorcentaje" type="java.math.BigInteger" initialValue="" verbalization="Suma Porcentaje"/>
+</ilog.rules.studio.model.base:VariableSet>
